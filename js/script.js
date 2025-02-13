@@ -8,6 +8,7 @@ var resultMaquina=0;
 function puedoSeguir(){
     if(resultado>7.5){
         document.getElementById("pedido").disabled=true;
+        document.getElementById("plantado").disabled=true;
         document.getElementById("demo2").innerHTML="HAS PERDIDO!!";
     }else{
         if(resultado==7.50){
@@ -30,7 +31,7 @@ function pedirCarta(){
 function plantarse(){
 
     document.getElementById("pedido").disabled=true;
-    while(resultMaquina<resultado && resultMaquina<7.30){
+    while(resultMaquina<resultado){
         resultMaquina+=arrayValor[Math.floor(Math.random()*arrayValor.length)];
     }
     document.getElementById("resMaquina").innerHTML="La casa lleva: "+resultMaquina;

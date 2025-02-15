@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juego 7:30</title>
-    <script src="js/script.js"></script>
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>JUEGO DE LAS 7:30</h1>
+        <div class="cabecera">
+            <h1>JUEGO DE LAS 7:30</h1>
+        </div>
     </header>
     <article>
-        <button onclick="pedirCarta()" id="pedido">Pedir carta</button>
-        <button onclick="plantarse()" id="plantado">Me planto</button>
-        <div id="demo"></div>
-        <p id="result"></p>
-        <p id="resMaquina"></p>
-        <p id="demo2"></p>
+        <div class="container">
+            <button onclick="pedirCarta()" id="pedido">Pedir carta</button>
+            <button onclick="plantarse()" id="plantado">Me planto</button>
+        </div>
+        <br><br>
+        <div id="imagen" class="img"></div>
+        <br><br>
+        <div class="puntuacion">
+            <div class="cajaPuntuacion">
+                <p>PUNTUACIÓN:</p>
+                <p id="resJugador"></p>
+                <p id="resMaquina"></p>
+            </div>
+        </div>
+        <div class="cajaRes">
+            <div class="cajaResIn" id="cajaResIn">
+                <p id="resultado"></p>
+            </div>
+        </div>
     </article>
+    <script src="js/script.js"></script>
 </body>
 </html>

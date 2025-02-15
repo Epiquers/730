@@ -2,3 +2,74 @@ body{
 	background-image: url('../img/fondo1.jpg');
 	color:white;
 }
+article{
+	border-color: #a2da21, solid;
+}
+.cabecera{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+	width: 30%;
+	background-color: #a2da21; 
+	color: rgb(12, 1, 1);  
+	font-size: 50px;
+	text-align: center;
+	border-radius: 20px; 
+}
+button {
+	margin: 15px;	 
+	width: 150px;    
+	height: 50px;    
+	font-size: 20px; 
+	font-weight: bold;
+	cursor: pointer; 
+	background-color: #b1b0b0; 
+	color: rgb(12, 1, 1);  
+	border: none;    
+	border-radius: 5px; 
+}
+.container{
+	width: 100%;
+	text-align: center;
+}
+.img{
+	height: 280px;
+	width: 100%;
+	text-align: center;
+}
+.puntuacion{
+	width: 100%;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajaPuntuacion{
+	width: 270px;
+	height: 170px;
+	background-color: rgb(209, 224, 124);
+	margin-top: 10x;
+	margin-bottom: 15px;
+	color: rgb(0, 0, 0);
+	border: 2px, solid, rgb(190, 240, 11);
+	border-radius: 5px; 
+}
+.cajaRes{
+	width: 100%;
+	text-align: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cajaResIn{
+	color: rgb(12, 1, 1); 
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 250px;
+	height: 55px;
+	border-radius: 10px;
+}
